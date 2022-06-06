@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="script.js" defer></script>
+    <title>FormValidation</title>
+</head>
+<body>
+        <div class="container">
+            <div class="image-container" style="background-image: url('https://images.unsplash.com/photo-1535882832-ac75c142f79f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGxlYXZlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');">
+                <div class="logo">
+                    <img src="https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="logoo" srcset="">
+                    <h1>LOGIN-FORM</h1>
+                    
+                </div>
+            </div>
+            <div class="right">
+                <div class="dummy-text left">
+                    <p>This is not a real online service! You know you need something</p>
+                    <p>like this in your life to help you realize your deepest dreams.</p>
+                    <p>Sign up <em>now </em> to get started.</p>
+                    <p class="remote-text">You <em>know </em> you want to.</p>
+                </div>
+                <form action="#" >
+                    <div class="form leftt">
+                        <p class="form-title">Let's do this!</p>
+
+                        <div class="input-control">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" class="first-name" required>
+                        </div>
+
+                        <div class="input-control">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name">
+                        </div>
+
+                        <div class="input-control">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <div class="input-control">
+                            <label for="phone-number">Phone number</label>
+                            <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                        </div>
+
+                        <div class="input-control ">
+                            <label for="password">Password</label>
+                            <input type="password" name="passwor" id="password" class="error"required>
+                        </div>
+                        
+                        <div class="input-control ">
+                            <label for="confirm-password ">Confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password" class="error" required>
+                        </div>
+                    </div>
+                    <div class="leftt button"><button type="submit">Create Account</button></div>
+                </form>
+                <div class="log-in leftt">
+                    <p>Already have an account?</p><a href="#">Log in</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
